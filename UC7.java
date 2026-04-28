@@ -25,7 +25,7 @@ public class TicTacToe {
         int row, col;
 
         do {
-            int move = (int)(Math.random() * 9); // 0–8
+            int move = (int)(Math.random() * 9); 
             row = move / 3;
             col = move % 3;
         } while (!isValidMove(row, col));
